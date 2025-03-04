@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenta Regresiva 💖</title>
+    <title>Cuenta Regresiva</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>⏳ Tiempo hasta vernos: ⏳</h1>
+    <h1>Tiempo hasta vernos:</h1>
 
     <div class="countdown">
-        <p class="label">Meses:Días:Horas:Minutos:Segundos</p>
-        <div id="fullCountdown" class="display"></div>
+        <div class="row">
+            <p class="label">En:</p>
+            <div id="fullCountdown" class="display"></div>
+        </div>
 
-        <p class="label">A partir de días</p>
-        <div id="daysCountdown" class="display"></div>
+        <div class="row">
+            <p class="label">En:</p>
+            <div id="daysCountdown" class="display"></div>
+        </div>
 
-        <p class="label">A partir de horas</p>
-        <div id="hoursCountdown" class="display"></div>
+        <div class="row">
+            <p class="label">En:</p>
+            <div id="hoursCountdown" class="display"></div>
+        </div>
 
-        <p class="label">En puros segundos</p>
-        <div id="secondsCountdown" class="display"></div>
+        <div class="row">
+            <p class="label">En:</p>
+            <div id="secondsCountdown" class="display"></div>
+        </div>
     </div>
 
     <script src="script.js"></script>
