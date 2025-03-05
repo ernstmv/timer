@@ -46,6 +46,7 @@ h1 {
     margin: 10px 0; /* Add some vertical spacing */
     left: auto; /* Reset left positioning */
     top: auto; /* Reset top positioning */
+    color: #393D42
 }
 
 .maincount, .seccount {
@@ -66,7 +67,7 @@ h1 {
 .seccount {
     font-size: 24px;
     color: #ff4081;
-    border: 2px solid #ff4081;
+    border: 0px solid #ff4081;
 }
 
 /* Media query for slightly larger mobile devices */
