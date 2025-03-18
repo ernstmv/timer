@@ -99,3 +99,41 @@ h1 {
         position: absolute;
     }
 }
+
+#mario {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 50px;
+  height: auto;
+  transition: left 1s linear;
+}
+
+.peach-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: auto;
+  z-index: 1000;
+}
+
+.arrow-icon {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 50px;
+  height: auto;
+  z-index: 1000;
+}
+
+.heart {
+    position: fixed;
+    left: 50vw;
+    bottom: 0;
+    width: 30px; /* Tamaño del corazón */
+    height: auto;
+    transition: transform 2s ease-out, opacity 2s ease-in;
+    opacity: 1;
+    z-index: 999;
+}
