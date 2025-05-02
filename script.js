@@ -1,4 +1,4 @@
-const targetDate = new Date("2025-05-15T20:30:00"); // Fecha objetivo
+const targetDate = new Date("2025-05-16T03:30:00"); // Fecha objetivo
 const startDate = new Date("2025-01-26T00:00:00"); // Fecha de inicio (cuando comenzó la cuenta regresiva)
 const totalDuration = targetDate - startDate; // Duración total en milisegundos
 
